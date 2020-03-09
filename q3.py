@@ -60,6 +60,11 @@ class Airfoil:
         
         
       
-
-        
-        
+#The above code can be run by following code function:-
+'''
+from q3 import Airfoil as ar
+model3 = ar()
+model3.train('./Datasets/q3/train.csv') # Path to the train.csv will be provided
+prediction3 = model3.predict('./Datasets/q3/test.csv') # Path to the test.csv will be provided
+# prediction3 should be Python 1-D List        
+'''        
